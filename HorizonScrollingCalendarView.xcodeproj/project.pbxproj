@@ -21,6 +21,9 @@
 		68E06C5B1967D2790084952C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E06C3D1967D2790084952C /* UIKit.framework */; };
 		68E06C631967D2790084952C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68E06C611967D2790084952C /* InfoPlist.strings */; };
 		68E06C651967D2790084952C /* HorizonScrollingCalendarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E06C641967D2790084952C /* HorizonScrollingCalendarViewTests.m */; };
+		68E06C701967D37B0084952C /* CalendarMonthTrigger.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E06C6F1967D37B0084952C /* CalendarMonthTrigger.m */; };
+		68E06C731967D39A0084952C /* CalendarDateScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E06C721967D39A0084952C /* CalendarDateScroller.m */; };
+		68E06C761967D8540084952C /* CalendarMessageBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E06C751967D8540084952C /* CalendarMessageBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		68E06C601967D2790084952C /* HorizonScrollingCalendarViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HorizonScrollingCalendarViewTests-Info.plist"; sourceTree = "<group>"; };
 		68E06C621967D2790084952C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		68E06C641967D2790084952C /* HorizonScrollingCalendarViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizonScrollingCalendarViewTests.m; sourceTree = "<group>"; };
+		68E06C6E1967D37B0084952C /* CalendarMonthTrigger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarMonthTrigger.h; sourceTree = "<group>"; };
+		68E06C6F1967D37B0084952C /* CalendarMonthTrigger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarMonthTrigger.m; sourceTree = "<group>"; };
+		68E06C711967D39A0084952C /* CalendarDateScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarDateScroller.h; sourceTree = "<group>"; };
+		68E06C721967D39A0084952C /* CalendarDateScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarDateScroller.m; sourceTree = "<group>"; };
+		68E06C741967D8540084952C /* CalendarMessageBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalendarMessageBar.h; sourceTree = "<group>"; };
+		68E06C751967D8540084952C /* CalendarMessageBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalendarMessageBar.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +128,12 @@
 				68E06C4F1967D2790084952C /* ViewController.m */,
 				68E06C511967D2790084952C /* Images.xcassets */,
 				68E06C401967D2790084952C /* Supporting Files */,
+				68E06C6E1967D37B0084952C /* CalendarMonthTrigger.h */,
+				68E06C6F1967D37B0084952C /* CalendarMonthTrigger.m */,
+				68E06C711967D39A0084952C /* CalendarDateScroller.h */,
+				68E06C721967D39A0084952C /* CalendarDateScroller.m */,
+				68E06C741967D8540084952C /* CalendarMessageBar.h */,
+				68E06C751967D8540084952C /* CalendarMessageBar.m */,
 			);
 			path = HorizonScrollingCalendarView;
 			sourceTree = "<group>";
@@ -250,6 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				68E06C501967D2790084952C /* ViewController.m in Sources */,
+				68E06C761967D8540084952C /* CalendarMessageBar.m in Sources */,
+				68E06C701967D37B0084952C /* CalendarMonthTrigger.m in Sources */,
+				68E06C731967D39A0084952C /* CalendarDateScroller.m in Sources */,
 				68E06C4A1967D2790084952C /* AppDelegate.m in Sources */,
 				68E06C461967D2790084952C /* main.m in Sources */,
 			);

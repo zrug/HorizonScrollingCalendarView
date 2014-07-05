@@ -7,8 +7,15 @@
 //
 
 #import "ViewController.h"
+#import "CalendarMonthTrigger.h"
+#import "CalendarDateScroller.h"
+#import "CalendarMessageBar.h"
 
-@interface ViewController ()
+@interface ViewController () {
+    CalendarMonthTrigger *calendarMonthTrigger;
+    CalendarDateScroller *calendarDateScroller;
+    CalendarMessageBar *calendarMessageBar;
+}
 
 @end
 
@@ -18,6 +25,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+    calendarMonthTrigger = [[CalendarMonthTrigger alloc] initWithFrame:CGRectMake(0, 20, 320, 44)];
+    [self.view addSubview:calendarMonthTrigger];
+
+    calendarDateScroller = [[CalendarDateScroller alloc] initWithFrame:CGRectMake(0, 64, 320, 65)];
+    [self.view addSubview:calendarDateScroller];
+
+    calendarMessageBar = [[CalendarMessageBar alloc] initWithFrame:CGRectMake(0, 129, 320, 24)];
+    [self.view addSubview:calendarMessageBar];
 }
 
 - (void)didReceiveMemoryWarning
