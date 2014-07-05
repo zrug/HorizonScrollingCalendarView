@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68E06C3A1967D2790084952C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E06C391967D2790084952C /* Foundation.framework */; };
+		68E06C3C1967D2790084952C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E06C3B1967D2790084952C /* CoreGraphics.framework */; };
+		68E06C3E1967D2790084952C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E06C3D1967D2790084952C /* UIKit.framework */; };
+		68E06C441967D2790084952C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68E06C421967D2790084952C /* InfoPlist.strings */; };
+		68E06C461967D2790084952C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E06C451967D2790084952C /* main.m */; };
+		68E06C4A1967D2790084952C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E06C491967D2790084952C /* AppDelegate.m */; };
+		68E06C4D1967D2790084952C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 68E06C4B1967D2790084952C /* Main.storyboard */; };
+		68E06C501967D2790084952C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E06C4F1967D2790084952C /* ViewController.m */; };
+		68E06C521967D2790084952C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68E06C511967D2790084952C /* Images.xcassets */; };
+		68E06C591967D2790084952C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E06C581967D2790084952C /* XCTest.framework */; };
+		68E06C5A1967D2790084952C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E06C391967D2790084952C /* Foundation.framework */; };
+		68E06C5B1967D2790084952C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68E06C3D1967D2790084952C /* UIKit.framework */; };
+		68E06C631967D2790084952C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68E06C611967D2790084952C /* InfoPlist.strings */; };
+		68E06C651967D2790084952C /* HorizonScrollingCalendarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E06C641967D2790084952C /* HorizonScrollingCalendarViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68E06C5C1967D2790084952C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68E06C2E1967D2790084952C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68E06C351967D2790084952C;
+			remoteInfo = HorizonScrollingCalendarView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68E06C361967D2790084952C /* HorizonScrollingCalendarView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HorizonScrollingCalendarView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E06C391967D2790084952C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68E06C3B1967D2790084952C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		68E06C3D1967D2790084952C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		68E06C411967D2790084952C /* HorizonScrollingCalendarView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HorizonScrollingCalendarView-Info.plist"; sourceTree = "<group>"; };
+		68E06C431967D2790084952C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68E06C451967D2790084952C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68E06C471967D2790084952C /* HorizonScrollingCalendarView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HorizonScrollingCalendarView-Prefix.pch"; sourceTree = "<group>"; };
+		68E06C481967D2790084952C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68E06C491967D2790084952C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68E06C4C1967D2790084952C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		68E06C4E1967D2790084952C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		68E06C4F1967D2790084952C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		68E06C511967D2790084952C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		68E06C571967D2790084952C /* HorizonScrollingCalendarViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HorizonScrollingCalendarViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E06C581967D2790084952C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		68E06C601967D2790084952C /* HorizonScrollingCalendarViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HorizonScrollingCalendarViewTests-Info.plist"; sourceTree = "<group>"; };
+		68E06C621967D2790084952C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68E06C641967D2790084952C /* HorizonScrollingCalendarViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HorizonScrollingCalendarViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68E06C331967D2790084952C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E06C3C1967D2790084952C /* CoreGraphics.framework in Frameworks */,
+				68E06C3E1967D2790084952C /* UIKit.framework in Frameworks */,
+				68E06C3A1967D2790084952C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E06C541967D2790084952C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E06C591967D2790084952C /* XCTest.framework in Frameworks */,
+				68E06C5B1967D2790084952C /* UIKit.framework in Frameworks */,
+				68E06C5A1967D2790084952C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68E06C2D1967D2790084952C = {
+			isa = PBXGroup;
+			children = (
+				68E06C3F1967D2790084952C /* HorizonScrollingCalendarView */,
+				68E06C5E1967D2790084952C /* HorizonScrollingCalendarViewTests */,
+				68E06C381967D2790084952C /* Frameworks */,
+				68E06C371967D2790084952C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68E06C371967D2790084952C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68E06C361967D2790084952C /* HorizonScrollingCalendarView.app */,
+				68E06C571967D2790084952C /* HorizonScrollingCalendarViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68E06C381967D2790084952C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68E06C391967D2790084952C /* Foundation.framework */,
+				68E06C3B1967D2790084952C /* CoreGraphics.framework */,
+				68E06C3D1967D2790084952C /* UIKit.framework */,
+				68E06C581967D2790084952C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68E06C3F1967D2790084952C /* HorizonScrollingCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				68E06C481967D2790084952C /* AppDelegate.h */,
+				68E06C491967D2790084952C /* AppDelegate.m */,
+				68E06C4B1967D2790084952C /* Main.storyboard */,
+				68E06C4E1967D2790084952C /* ViewController.h */,
+				68E06C4F1967D2790084952C /* ViewController.m */,
+				68E06C511967D2790084952C /* Images.xcassets */,
+				68E06C401967D2790084952C /* Supporting Files */,
+			);
+			path = HorizonScrollingCalendarView;
+			sourceTree = "<group>";
+		};
+		68E06C401967D2790084952C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68E06C411967D2790084952C /* HorizonScrollingCalendarView-Info.plist */,
+				68E06C421967D2790084952C /* InfoPlist.strings */,
+				68E06C451967D2790084952C /* main.m */,
+				68E06C471967D2790084952C /* HorizonScrollingCalendarView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		68E06C5E1967D2790084952C /* HorizonScrollingCalendarViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				68E06C641967D2790084952C /* HorizonScrollingCalendarViewTests.m */,
+				68E06C5F1967D2790084952C /* Supporting Files */,
+			);
+			path = HorizonScrollingCalendarViewTests;
+			sourceTree = "<group>";
+		};
+		68E06C5F1967D2790084952C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68E06C601967D2790084952C /* HorizonScrollingCalendarViewTests-Info.plist */,
+				68E06C611967D2790084952C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68E06C351967D2790084952C /* HorizonScrollingCalendarView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E06C681967D2790084952C /* Build configuration list for PBXNativeTarget "HorizonScrollingCalendarView" */;
+			buildPhases = (
+				68E06C321967D2790084952C /* Sources */,
+				68E06C331967D2790084952C /* Frameworks */,
+				68E06C341967D2790084952C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HorizonScrollingCalendarView;
+			productName = HorizonScrollingCalendarView;
+			productReference = 68E06C361967D2790084952C /* HorizonScrollingCalendarView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68E06C561967D2790084952C /* HorizonScrollingCalendarViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68E06C6B1967D2790084952C /* Build configuration list for PBXNativeTarget "HorizonScrollingCalendarViewTests" */;
+			buildPhases = (
+				68E06C531967D2790084952C /* Sources */,
+				68E06C541967D2790084952C /* Frameworks */,
+				68E06C551967D2790084952C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68E06C5D1967D2790084952C /* PBXTargetDependency */,
+			);
+			name = HorizonScrollingCalendarViewTests;
+			productName = HorizonScrollingCalendarViewTests;
+			productReference = 68E06C571967D2790084952C /* HorizonScrollingCalendarViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68E06C2E1967D2790084952C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = com.zcloud2011;
+				TargetAttributes = {
+					68E06C561967D2790084952C = {
+						TestTargetID = 68E06C351967D2790084952C;
+					};
+				};
+			};
+			buildConfigurationList = 68E06C311967D2790084952C /* Build configuration list for PBXProject "HorizonScrollingCalendarView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68E06C2D1967D2790084952C;
+			productRefGroup = 68E06C371967D2790084952C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68E06C351967D2790084952C /* HorizonScrollingCalendarView */,
+				68E06C561967D2790084952C /* HorizonScrollingCalendarViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68E06C341967D2790084952C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E06C521967D2790084952C /* Images.xcassets in Resources */,
+				68E06C441967D2790084952C /* InfoPlist.strings in Resources */,
+				68E06C4D1967D2790084952C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E06C551967D2790084952C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E06C631967D2790084952C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68E06C321967D2790084952C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E06C501967D2790084952C /* ViewController.m in Sources */,
+				68E06C4A1967D2790084952C /* AppDelegate.m in Sources */,
+				68E06C461967D2790084952C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68E06C531967D2790084952C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E06C651967D2790084952C /* HorizonScrollingCalendarViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68E06C5D1967D2790084952C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68E06C351967D2790084952C /* HorizonScrollingCalendarView */;
+			targetProxy = 68E06C5C1967D2790084952C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68E06C421967D2790084952C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68E06C431967D2790084952C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		68E06C4B1967D2790084952C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68E06C4C1967D2790084952C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		68E06C611967D2790084952C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68E06C621967D2790084952C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68E06C661967D2790084952C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68E06C671967D2790084952C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68E06C691967D2790084952C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HorizonScrollingCalendarView/HorizonScrollingCalendarView-Prefix.pch";
+				INFOPLIST_FILE = "HorizonScrollingCalendarView/HorizonScrollingCalendarView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		68E06C6A1967D2790084952C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HorizonScrollingCalendarView/HorizonScrollingCalendarView-Prefix.pch";
+				INFOPLIST_FILE = "HorizonScrollingCalendarView/HorizonScrollingCalendarView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		68E06C6C1967D2790084952C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HorizonScrollingCalendarView.app/HorizonScrollingCalendarView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HorizonScrollingCalendarView/HorizonScrollingCalendarView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HorizonScrollingCalendarViewTests/HorizonScrollingCalendarViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		68E06C6D1967D2790084952C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HorizonScrollingCalendarView.app/HorizonScrollingCalendarView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HorizonScrollingCalendarView/HorizonScrollingCalendarView-Prefix.pch";
+				INFOPLIST_FILE = "HorizonScrollingCalendarViewTests/HorizonScrollingCalendarViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68E06C311967D2790084952C /* Build configuration list for PBXProject "HorizonScrollingCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E06C661967D2790084952C /* Debug */,
+				68E06C671967D2790084952C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68E06C681967D2790084952C /* Build configuration list for PBXNativeTarget "HorizonScrollingCalendarView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E06C691967D2790084952C /* Debug */,
+				68E06C6A1967D2790084952C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68E06C6B1967D2790084952C /* Build configuration list for PBXNativeTarget "HorizonScrollingCalendarViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68E06C6C1967D2790084952C /* Debug */,
+				68E06C6D1967D2790084952C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68E06C2E1967D2790084952C /* Project object */;
+}
